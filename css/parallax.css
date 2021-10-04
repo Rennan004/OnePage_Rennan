@@ -1,5 +1,7 @@
 body, html{
   height: 100%;
+  overflow-x: hidden;
+  
 }
 /* configura os elementos .parallax */
 .parallax{
@@ -9,6 +11,7 @@ body, html{
   background-size: cover !important;
   background-position: 50% 0 !important;
   position: relative;
+  
 }
 
 .div1{
@@ -28,4 +31,11 @@ body, html{
 }
 .div6{
   background-image: url('../img/animal6.jpg');
+
+}
+.p{
+  font-size: 16px;
+}
+#btn-menu{
+  z-index: 1;
 }

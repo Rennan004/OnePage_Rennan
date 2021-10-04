@@ -17,7 +17,8 @@ $(function(){
         //Corrige a diferença do primeiro elemento
         if(obj.is(':first-child')){
           var bg_pos = (window_scrolltop - obj.position().top) / divisor
-        }else{
+        }else
+        {
           var bg_pos = (window_scrolltop - obj.position()top + (obj.height() - 100)) / divisor 
         }
 

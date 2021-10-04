@@ -5,5 +5,8 @@ a {
 }
 
 #menu, #contact, #home,#about,#action{
-  display: none;
+ display: none;
+}
+form,h1{
+  color: #fff;
 }
