@@ -19,7 +19,7 @@ $(function(){
           var bg_pos = (window_scrolltop - obj.position().top) / divisor
         }else
         {
-          var bg_pos = (window_scrolltop - obj.position()top + (obj.height() - 100)) / divisor 
+          var bg_pos = (window_scrolltop - obj.position().top + (obj.height() - 100)) / divisor 
         }
 
         //executa as modificações da imagens de fundo
